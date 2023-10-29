@@ -97,7 +97,7 @@ if ($text) {
 if($text == '/start' or $text == '->' or $text == "Back"){
 bot('sendMessage',[
 'chat_id'=>$chat_id,
-'text' => "@ClimersTeam اهلا بك في الوحه تحكم",
+'text' => "@YaBhTeam  🫦 اهلا بك في الوحه تحكم",
 'parse_mode' => "MarkDown", 
 'disable_web_page_preview' => true,
 'reply_markup' => json_encode(['resize_keyboard' => true, 'keyboard' => [
