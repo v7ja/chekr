@@ -63,7 +63,7 @@ file_put_contents("step","3");
 if($text){
 $authorization = $MadelineProto->completephonelogin($text);
 if ($authorization['_'] === 'account.password') {
-$tg->vtcor('sendmessage',['chat_id'=>$chat_id, 'text'=>"• حسناً . الان ارسل رمز التحقق مثال \PYRO"]);
+$tg->vtcor('sendmessage',['chat_id'=>$chat_id, 'text'=>"• حسناً . الان ارسل رمز التحقق مثال \aBooD"]);
 file_put_contents("step","4");
 }else{
 $tg->vtcor('sendmessage',['chat_id'=>$chat_id, 'text'=>"• تشيكر رقم ".file_get_contents("TheN") ."\n• تم تسجيل الدخول✅"]);
